@@ -1,3 +1,10 @@
+/**
+ * Test scenario for LoginFormInput component
+ * - should handle email address typing correctly
+ * - should handle password typing correctly
+ * - should call login function when login button is clicked
+ */
+
 import React from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import {

@@ -56,7 +56,7 @@ const RegisterPage = () => {
         </Heading>
         <Text textAlign='center' fontSize='16px' mb='5'>
           Join <span style={{ color: '#48b3fc' }}>KodeTalk Community</span> &
-          Unlock Your <span style={{ color: '#48b3fc' }}>Potensial</span>
+          Unlock Your <span style={{ color: '#48b3fc' }}>Potential</span>
         </Text>
         <RegisterFormInput register={onRegister} />
       </Box>

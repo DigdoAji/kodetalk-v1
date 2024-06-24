@@ -1,3 +1,11 @@
+/**
+ *  Test scenario for RegisterFormInput component
+ * - should handle name typing correctly
+ * - should handle email address typing correctly
+ * - should handle password typing correctly
+ * - should call register function when register button is clicked
+ */
+
 import React from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import {

@@ -1,3 +1,11 @@
+/**
+ *  Test scenario for ThreadFormInput component
+ * - should handle title typing correctly
+ * - should handle category typing correctly
+ * - should handle body typing correctly
+ * - should call addThread function when submit button is clicked
+ */
+
 import React from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import {
