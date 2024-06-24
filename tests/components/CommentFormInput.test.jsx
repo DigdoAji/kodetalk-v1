@@ -1,3 +1,9 @@
+/**
+ * Test scenario for CommentFormInput component
+ * - should handle comment typing correctly
+ * - should call comment function when submit button is clicked
+ */
+
 import React from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import { describe, it, expect, vi, afterEach } from 'vitest';

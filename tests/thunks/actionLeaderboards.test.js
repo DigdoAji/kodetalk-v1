@@ -1,3 +1,9 @@
+/**
+ *  Test scenario for asyncReceiveLeaderboards thunk
+ * - should dispatch action correctly when data fetching success
+ * - should dispatch action and call alert error when data fetching failed
+ */
+
 import {
   describe, it, expect, vi, beforeEach, afterEach,
 } from 'vitest';

@@ -1,3 +1,13 @@
+/**
+ *  Test scenario for threadsReducer function
+ * - should return the initial state when given by unknown action
+ * - should return the threads when given by RECEIVE_THREADS action
+ * - should return the threads with new thread when given by ADD_THREAD action
+ * - should return the threads with upVotesBy when given by UP_VOTE_THREAD action
+ * - should return the threads with downVotesBy when given by DOWN_VOTE_THREAD action
+ * - should return the threads with clear/neutral votes when given by NEUTRAL_VOTE_THREAD action
+ */
+
 import {
   describe, it, expect,
 } from 'vitest';

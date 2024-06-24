@@ -1,3 +1,14 @@
+/**
+ * 1. Test scenario for actionAuthUser thunk
+ *  - should store accessToken in local storage when user login
+ *  - should dispatch action correctly when data fetching success
+ *  - should dispatch action and call alert error when data fetching failed
+ *
+ * 2. Test scenario for actionAuthUser thunk
+ *  - should be null accessToken in local storage when user logout
+ *  - should dispatch action correctly when user logout
+ */
+
 import {
   describe, it, expect, vi, beforeEach, afterEach,
 } from 'vitest';

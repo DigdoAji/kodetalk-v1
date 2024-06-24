@@ -1,3 +1,9 @@
+/**
+ *  Test scenario for isPreloadReducer function
+ * - should return the initial state when given by unknown action
+ * - should return the isPreload when given by SET_IS_PRELOAD action
+ */
+
 import {
   describe, it, expect,
 } from 'vitest';
